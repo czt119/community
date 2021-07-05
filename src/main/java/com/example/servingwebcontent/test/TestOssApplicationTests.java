@@ -17,8 +17,8 @@ class TestOssApplicationTests {
         // Endpoint以杭州为例，其它Region请按实际情况填写。
         String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
         // 云账号AccessKey有所有API访问权限，建议遵循阿里云安全最佳实践，创建并使用RAM子账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建。
-        String accessKeyId = "LTAI5tDf5WXAA7RKrNhxHcAT";
-        String accessKeySecret = "duK4S0wd3TcqwIHiXpZclpBbXW0wPg";
+        String accessKeyId = "";
+        String accessKeySecret = "";
 
         // 创建OSSClient实例。
         OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
